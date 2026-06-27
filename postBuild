@@ -1,0 +1,10 @@
+#!/bin/bash
+# postBuild runs ONCE when Binder builds the image (not every launch).
+# Use it for setup that can't go in environment.yml. Must be executable:
+#   git update-index --chmod=+x postBuild   (or: chmod +x postBuild before commit)
+set -e
+
+# Make the sample script executable so students can run ./scripts/count_bases.py
+chmod +x scripts/*.py 2>/dev/null || true
+
+echo "postBuild complete."

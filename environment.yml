@@ -1,0 +1,20 @@
+# Binder reads this file to build the student environment.
+# Keep it LEAN: every package adds to build time. Students get a full
+# Linux container with these tools available in the bash terminal + Python.
+name: bioinfo-sandbox
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  # --- Python teaching stack ---
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - biopython
+  - jupyterlab>=4        # gives notebooks AND a real bash terminal
+  # --- A few classic command-line bioinformatics tools ---
+  # (Comment these out if you only need bash + Python and want faster builds.)
+  - samtools
+  - seqkit
