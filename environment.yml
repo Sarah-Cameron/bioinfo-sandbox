@@ -14,6 +14,9 @@ dependencies:
   - matplotlib
   - biopython
   - jupyterlab>=4        # gives notebooks AND a real bash terminal
+  # --- Text editors for the terminal (the base image has neither) ---
+  - nano
+  - vim
   # --- A few classic command-line bioinformatics tools ---
   # (Comment these out if you only need bash + Python and want faster builds.)
   - samtools
