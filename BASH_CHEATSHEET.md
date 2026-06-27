@@ -16,7 +16,8 @@
 | `cp a b` | copy file `a` to `b` |
 | `mv a b` | move/rename `a` to `b` |
 | `rm file` | delete a file (careful — no undo!) |
-| `nano file` | open a simple text editor (Ctrl+O save, Ctrl+X exit) |
+| `nano file` | open a beginner-friendly text editor (Ctrl+O save, Ctrl+X exit) — **start here** |
+| `vim file` | a powerful but trickier editor (`i` to type, `Esc` then `:wq` to save & quit) — use `nano` until you're comfortable |
 | `python script.py` | run a Python script |
 | `grep ">" file.fasta` | find lines containing `>` (FASTA headers) |
 | `wc -l file` | count lines in a file |
