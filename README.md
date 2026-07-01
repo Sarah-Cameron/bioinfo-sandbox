@@ -4,12 +4,12 @@ A zero-install, browser-based Linux environment for students learning the **bash
 
 ## 🚀 Launch it
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Sarah-Cameron/bioinfo-sandbox/HEAD?urlpath=lab/tree/intro.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Sarah-Cameron/bioinfo-sandbox/HEAD?urlpath=terminals/1)
 
 > The badge and links below are already wired to **`Sarah-Cameron/bioinfo-sandbox`**. If you fork or rename this repo, replace that `USER/REPO` portion with your own GitHub username and repository name.
 
 Direct link to give students:
-`https://mybinder.org/v2/gh/Tancata/bioinfo-sandbox/HEAD?urlpath=lab/tree/intro.ipynb`
+`https://mybinder.org/v2/gh/Sarah-Cameron/bioinfo-sandbox/HEAD?urlpath=terminals/1`
 
 Want students to land straight in a **terminal** instead of the notebook? Use:
 `https://mybinder.org/v2/gh/Tancata/bioinfo-sandbox/HEAD?urlpath=lab/tree/BASH_CHEATSHEET.md`
